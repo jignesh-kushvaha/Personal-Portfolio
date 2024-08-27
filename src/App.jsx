@@ -1,3 +1,4 @@
+import { ToastContainer } from 'react-toastify'
 import './App.css'
 import AboutMe from './Components/AboutMe'
 import ContactMe from './Components/ContactMe'
@@ -11,6 +12,7 @@ function App() {
         <Hero/>
         <AboutMe/>
         <ContactMe/>
+        <ToastContainer theme='dark' />
       </div>
   )
 }

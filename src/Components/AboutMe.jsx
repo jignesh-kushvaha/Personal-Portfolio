@@ -2,7 +2,7 @@ import React from "react";
 import AboutMeImage from "../assets/mine.png";
 function AboutMe() {
   return (
-    <div className="bg-black text-white py-15 w-full h-screen py-12" id='about'>
+    <div className="bg-black text-white py-15 w-full py-12" id='about'>
       <div className="container mx-auto px-8">
         <h2 className="text-center font-bold text-4xl mb-8">About Me</h2>
         <div className="conyainer mx-32 flex flex-col justify-center items-center mt-24 gap-20 md:flex-row ">

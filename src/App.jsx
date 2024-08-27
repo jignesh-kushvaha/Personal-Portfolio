@@ -1,5 +1,6 @@
 import './App.css'
 import AboutMe from './Components/AboutMe'
+import ContactMe from './Components/ContactMe'
 import Heading from './Components/Heading'
 import Hero from './Components/Hero'
 
@@ -9,6 +10,7 @@ function App() {
         <Heading/>
         <Hero/>
         <AboutMe/>
+        <ContactMe/>
       </div>
   )
 }

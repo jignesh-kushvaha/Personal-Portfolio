@@ -5,7 +5,7 @@ function AboutMe() {
     <div className="bg-black text-white py-15 w-full h-screen py-12" id='about'>
       <div className="container mx-auto px-8">
         <h2 className="text-center font-bold text-4xl mb-8">About Me</h2>
-        <div className="conyainer mx-32 flex flex-col justify-center items-center mt-24 gap-20 md:flex-row items-center">
+        <div className="conyainer mx-32 flex flex-col justify-center items-center mt-24 gap-20 md:flex-row ">
           <img className="mx-auto mb-8 w-80 min-h-96 rounded-sm object-cover transform transition-transform duration-300 hover:scale-105" src={AboutMeImage} alt="" />
           <p className="">
             A dedicated and quick learner with a passion for Front-End web

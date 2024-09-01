@@ -5,7 +5,7 @@ import { Link } from "react-router-dom";
 
 function Hero() {
   const [text] = useTypewriter({
-    words: ["Jigneshsingh Kushvaha"],
+    words: ["Jigneshsingh Kushvaha","a constant learner","i love to do code"],
     loop: true,
   });
 
@@ -23,14 +23,14 @@ function Hero() {
             alt=""
           />
           <pre className="text-4xl font-bold">
-            <p>hey 👋,</p>
+            <p className="my-3">hey 👋,</p>
             I'm {""}
             <span className="text-transparent bg-clip-text bg-gradient-to-r from-green-400 to-blue-500">
               {text}
             </span>
             <Cursor cursorColor="red" />
           </pre>
-          <p className="mt-2 text-xl">an aspirant Front-End Developer</p>
+          <p className="mt-3 text-xl">an aspirant Front-End Developer</p>
           <div className="mt-4 space-x-4">
             <button className=" bg-gradient-to-r from-green-400 to-blue-500 text-white rounded-full px-4 py-2 transform transition-transform duration-200 hover:scale-95 font-semibold" 
             onClick={handleNavigate}

@@ -12,7 +12,7 @@ function AboutMe() {
               src={AboutMeImage}
               alt=""
             />
-            <p className="flex items-center border-2 px-9">
+            <p className="flex items-center px-9">
               A dedicated and quick learner with a passion for Front-End web
               development. Eager to contribute to a dynamic team as a Front-End
               Web Developer, utilizing my knowledge of front-end including
